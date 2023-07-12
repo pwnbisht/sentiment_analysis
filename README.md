@@ -1,8 +1,6 @@
 # sentiment-analysis-twitter
 
-🛩️This project is an interactive web application built using Streamlit for sentiment analysis of text data. It uses a pre-trained Naive Bayes classifier to predict the sentiment of a given text input. The application allows users to enter a text and get the predicted sentiment, whether it is negative, neutral, or positive.
-
-![Streamlit Web App](https://github.com/kapooraryan/sentiment-analysis-twitter/assets/69362333/2de288c9-e184-451e-b31d-e4ad09525b8a)
+This project is an interactive web application developed using Streamlit, designed to perform sentiment analysis on text data. It utilizes a pre-trained Naive Bayes classifier to determine the sentiment of a given input text. The application enables users to input text and receive the predicted sentiment, which can be classified as negative, neutral, or positive. Through this application, users can gain insights into the sentiment conveyed by their text inputs.
 
 # Dataset
 The sentiment analysis model is trained on a dataset of tweets. The dataset, stored in a file named tweets.csv, contains text data along with corresponding sentiment labels. The dataset is preprocessed to filter out entries with low confidence scores, and the text data is cleaned by removing stopwords, punctuation, and converting words to their base forms using lemmatization.
@@ -21,7 +19,7 @@ To run the sentiment analysis app, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/kapooraryan/sentiment-analysis-twitter.git
+   git clone https://github.com/pwnbisht/sentiment_analysis.git
    
 2. Install the required dependencies:
 
